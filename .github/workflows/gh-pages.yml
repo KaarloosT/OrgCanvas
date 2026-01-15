@@ -7,10 +7,14 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
       - uses: actions/checkout@v4
         with:
-          persist-credentials: false # otherwise the token used is the GITHUB_TOKEN, which can't push to gh-pages by default in some cases
+          persist-credentials: true # keep credentials to allow actions to push using the provided GITHUB_TOKEN
 
       - name: Use Node.js
         uses: actions/setup-node@v4
