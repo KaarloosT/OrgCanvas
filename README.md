@@ -1,5 +1,11 @@
 # OrgCanvas — Editor Visual de Organigramas
 
+[![CI](https://img.shields.io/github/actions/workflow/status/KaarloosT/OrgCanvas/ci.yml?branch=master)](https://github.com/KaarloosT/OrgCanvas/actions)
+[![License](https://img.shields.io/github/license/KaarloosT/OrgCanvas)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/KaarloosT/OrgCanvas)](https://github.com/KaarloosT/OrgCanvas/issues)
+[![Stars](https://img.shields.io/github/stars/KaarloosT/OrgCanvas?style=social)](https://github.com/KaarloosT/OrgCanvas)
+[![Made with vibe-coding](https://img.shields.io/badge/made_with-vibe--coding-brightgreen)]()
+
 OrgCanvas es un editor moderno y ligero para crear organigramas y diagramas jerárquicos con facilidad. Diseñado para flujos de trabajo rápidos y presentaciones profesionales, el proyecto está **Made with vibe-coding**: enfoque moderno, experiencia fluida y diseño limpio.
 
 - **Stack:** React + Vite + TypeScript
